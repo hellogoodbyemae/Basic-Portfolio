@@ -5,42 +5,57 @@
         <title>Basic Portfolio</title>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesleet" type="text/css" href="css/contact.css">
     </head>
     <body>
-        <header>Margaret Egner</header>
-        <div id="menu">
-            <nav>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </nav>
-        </div>
+        <section id="topcontainer">
+            <section class="name">
+                <header>Margaret Egner</header>
+            </section>
 
-        <div id="center box">
-            <h1>Contact</h1>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" value="Name"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email" value="Email"><br>
-                <label for="message">Message:</label><br>
-                <input type="text" id="message" name="message" value="Message">
-            </form>
-            <button id="submit">Submit</button>
+            <section class="navigation">    
+                <section id="about">
+                    About
+                </section>
+                <section id="portfolio">
+                    Portfolio
+                </section>
+                <section id="contact">
+                    Contact
+                </section>
+            </section>
+        </section>
+
+        <section id="bodycontainer">
+            <section class="content">
+                <h1><strong>Contact</strong></h1>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" value="Name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" value="Email"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" value="Message">
+                </form>
                 
-                <script type="text/javascript">
-                    document.getElementById("submit").addEventListener("click", function(){
-        
-                        document.getElementById("box").style.height = "25px";
-        
-                    });
-                </script>    
-        </div>
+                <button id="submit">Submit</button>
+                    
+                    <script type="text/javascript">
+                        document.getElementById("submit").addEventListener("click", function(){
+            
+                            document.getElementById("box").style.height = "25px";
+            
+                        });
+                    </script>
+            </section>
+        </section>
 
-        <div class="bottom">
-            <div id="teal box">
-            <footer>Copyright&copy;</footer>
-            </div>
-        </div>
+        <section class="box">
+            <section id="teal"></section>
+            <section id="footer">
+                Copyright&copy;
+            </section>
+        </section>
+
     </body>
 </html>

@@ -1,0 +1,18 @@
+form {
+    width: 700px;
+    height: 500px;
+}
+
+#name {
+    width: 900px;
+}
+
+#email {
+    width: 900px;
+}
+
+#message {
+    width: 900px;
+    height: 200px;
+
+}
