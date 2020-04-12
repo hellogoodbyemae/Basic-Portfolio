@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eeeeee;
+    color: #777777;
+    width: 960px;
+    height: 900px;
+    font-size: 18px;
+}
+#bodycontainer {
+    position: absolute;
+    top: 125px;
+    bottom: 200px;
+    left: 350px;
+    clear: both;
+    overflow: auto;
+    background: #ffffff;
+    width: 960px;
+    height: 700px;
+}
+
+.gallery {
+    display: flex;
+    align-content: flex-start;
+}
+
+.picture {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 275px;
+}
+
+img {
+    width: 235px;
+    height: 170px;
+    float: left;
+}
+
+#hangman {
+    position: relative;
+    width: 235px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.description {
+    color: #eeeeee;
+}
+
+.picturetwo {
+    float: left;
+    margin-top: 20px;
+    width: 275px;
+    clear: both;
+}
+
+#rpg {
+    width: 235px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.picturethree {
+    float: left;
+    margin-top: 20px;
+    width: 275px;
+    clear: both;
+}
+
+#trivia {
+    width: 235px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.picturefour {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 275px;
+    clear: both;
+}
+
+#riw {
+    width: 235px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.picturefive {
+    float: left;
+    margin-top: 20px;
+    width: 275px;
+    clear: both;
+}
+
+#rps {
+    width: 235px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+

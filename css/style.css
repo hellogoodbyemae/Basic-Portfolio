@@ -14,14 +14,14 @@ body {
     bottom: 0;
     left: 0;
     padding: 10px;
-    height: 100px;
+    height: 80px;
     border-bottom: 0.5px solid #777777;
     background: #ffffff;
 }
 
 .name {
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 350px;
     background: #4aaaa5;
     float: left;
@@ -40,11 +40,11 @@ header {
 
 .navigation {
     position: relative;
-    top: 50px;
+    top: 30px;
     right: 300px;
     background: #ffffff;
     float: right;
-    width: 250px;
+    width: 270px;
     height: 40px;
     padding-top: 20px;
 }
@@ -66,14 +66,12 @@ header {
 
 #bodycontainer {
     position: absolute;
-    top: 125px;
-    bottom: 200px;
+    top: 110px;
     left: 350px;
     clear: both;
     overflow: auto;
     background: #ffffff;
     width: 960px;
-    height: 500px;
 }
 
 .aboutme {
