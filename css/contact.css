@@ -1,6 +1,13 @@
-form {
+.formbox {
     width: 900px;
+    height: 700px;
+    background: #eeeeee;
+}
+
+form {
+    margin: 20px;
     height: 500px;
+    padding: 10px;
 }
 
 #name {
