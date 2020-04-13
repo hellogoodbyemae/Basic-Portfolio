@@ -59,7 +59,7 @@ header {
     width: 33.3%;
 }
 
-#content {
+#contact {
     float: left;
     width: 33.3%;
 }
@@ -97,7 +97,6 @@ h1 {
 
 .picture {
     margin-left: 20px;
-    margin-top: 90px;
 }
 
 img {
@@ -108,7 +107,7 @@ img {
 
 p {
     margin-right: 20px;
-    line-spacing: 24px;
+    line-height: 24px;
 }
 
 .box {
@@ -116,7 +115,6 @@ p {
     clear: both;
     width: 100%;
     bottom: 0px;
-
 }
 
 #teal {
